@@ -1,0 +1,7 @@
+*.class
+**/__pycache__/*
+**/.idea/*
+*.iml
+burp-extension/target/*
+**/venv/*
+dependency-reduced-pom.xml
