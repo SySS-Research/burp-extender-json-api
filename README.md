@@ -26,7 +26,9 @@ You can build the burp extension itself from source.
 cd burp-extension
 mvn package
 ```
-or use a pre-compiled version located in `burp-extension/release`.
+You'll find the result in `target/burp-json-api-1.0-SNAPSHOT.jar`.
+
+Or use a pre-compiled version located in `burp-extension/release`.
 
 ## Activate the extension in burp
 Load the extension in burp the usual way. Please keep in mind that the order matters!
