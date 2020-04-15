@@ -31,7 +31,7 @@ or use a pre-compiled version located in `burp-extension/release`.
 ## Activate the extension in burp
 Load the extension in burp the usual way. Please keep in mind that the order matters!
 
-[![Video: Add extension](/images/add-extension.jpg)](/videos/add-extension.mp4 "Add extension")
+[![Video: Add extension](/images/add-extension.jpg)](https://github.com/SySS-Research/burp-extender-json-api/blob/master/videos/add-extension.mp4?raw=true "Add extension")
 
 # Use the extension API
 After loading the extension, a new HTTP service is provided on localhost port 8099. The sample implementation with
@@ -56,7 +56,7 @@ i.e. ./app.py -auth [auth token] -extension [extension1[ extension2]]
 
 There are different extensions available in `python/extensions`. Check out the code for the details.
 
-[![Video: Use extension](/images/use-extension.jpg)](/videos/use-extension.mp4 "Use extension")
+[![Video: Use extension](/images/use-extension.jpg)](https://github.com/SySS-Research/burp-extender-json-api/blob/master/videos/use-extension.mp4?raw=true "Use extension")
 
 ## Currently supported functions
 * IntruderPayloadGenerator
