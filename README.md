@@ -9,13 +9,13 @@ compression or other stuff, it gets too time consuming to build an extension wit
 As an additional benefit, this API allows you to build extensions without knowing the burp extension API. You can
 use any software, it just has to be able to speak JSON via HTTP. No need for Java, Jython etc!
 
-Basically, this extensions tries to make use of the great burp features without reimplementierung logic for request
+Basically, this extensions tries to make use of the great burp features without reimplementing logic for request
 modification or similar, while giving you the freedom to use any programming language you like. A sample implementation
 is provided as as PoC in pure Python (not Jython!) in the folder `python`. You can start there if you want to see
 how it works.
 
 ## Limitations
-Building extensions with a custom UI is currently not possible. Also, not all featues of burp are implemented (yet).
+Building extensions with a custom UI is currently not possible. Also, not all features of burp are implemented (yet).
 
 ## Getting Started
 Clone the repo.
