@@ -28,7 +28,7 @@ mvn package
 ```
 You'll find the result in `target/burp-json-api-1.0-SNAPSHOT.jar`.
 
-Or use a pre-compiled version located in `burp-extension/release`.
+Or use a pre-compiled release version.
 
 ## Activate the extension in burp
 Load the extension in burp the usual way. Please keep in mind that the order matters!
